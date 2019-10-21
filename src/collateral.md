@@ -116,7 +116,7 @@ if
 returns 0
 ```
 
-Vat acts (needed because GemJoin4 calls Vat.slip)
+Vat acts
 ```act
 behaviour slip of Vat
 interface slip(bytes32 ilk, address usr, int256 wad)

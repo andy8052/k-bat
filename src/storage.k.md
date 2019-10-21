@@ -12,6 +12,6 @@ Storage for Vat
 syntax Int ::= "#Vat.wards" "[" Int "]" [function]
 rule #Vat.wards[A] => #hashedLocation("Solidity", 0, A)
 
-syntax Int ::= "#Vat.gem" "[" Int "][" Int "]" [function]
+syntax Int ::= "#Vat.gem" "[" Int "]" "[" Int "]" [function]
 rule #Vat.gem[Ilk][Usr] => #hashedLocation("Solidity", 4, Ilk Usr)
 ```
